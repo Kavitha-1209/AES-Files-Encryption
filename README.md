@@ -20,7 +20,6 @@ USAGE:
 
 ⚠️ IMPORTANT:
 - Keep 'secret.key' safe. Without it, you cannot decrypt your files.
-- Do NOT upload 'secret.key' to GitHub (it's ignored using .gitignore).
 """
 
 from cryptography.fernet import Fernet
@@ -73,4 +72,5 @@ if __name__ == "__main__":
     # generate_key()
     # encrypt_file("example.txt")
     # decrypt_file("example.txt.enc")
+
     pass
